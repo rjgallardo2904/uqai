@@ -1,0 +1,14 @@
+server:
+  port: 8585
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/vehicleMaintenance
+    username: postgres
+    password: root
+    driverClassName: org.postgresql.Driver
